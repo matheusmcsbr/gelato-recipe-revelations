@@ -452,6 +452,331 @@ const gelatoRecipes: GelatoRecipe[] = [
     ],
     history: "Lemon sorbet has been a staple of Italian cuisine since the 16th century when Sicilian snow was mixed with lemon juice to create a refreshing treat. The most prized version comes from Sorrento and the Amalfi Coast, where the unique microclimate produces extraordinarily fragrant lemons with the perfect balance of acidity and sweetness. The Carpigiani Gelato University and other prestigious Italian gelato schools teach that true limone sorbet should taste intensely of fresh lemons without excessive sweetness, allowing the natural character of the fruit to shine.",
     color: "bg-gelato-lemon"
+  },
+  {
+    id: "fior-di-latte",
+    name: "Fiordilatte",
+    description: "The quintessential Italian gelato, celebrating the pure flavor of fresh dairy. This 'flower of milk' gelato forms the foundation of all cream-based gelato varieties.",
+    type: "cream-based",
+    difficulty: "easy",
+    totalTime: "3-4 hours (including chilling time)",
+    servings: 8,
+    equipment: [
+      "Gelato maker or ice cream machine",
+      "Medium saucepan",
+      "Whisk",
+      "Rubber spatula",
+      "Fine-mesh strainer",
+      "Digital thermometer",
+      "Airtight storage container"
+    ],
+    ingredients: [
+      {
+        name: "Whole milk (highest quality available)",
+        quantity: "600ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Heavy cream",
+        quantity: "200ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Granulated sugar",
+        quantity: "150g"
+      },
+      {
+        name: "Dextrose (optional)",
+        quantity: "25g",
+        preparation: "Helps prevent crystallization"
+      },
+      {
+        name: "Skim milk powder (optional)",
+        quantity: "25g",
+        preparation: "Enhances creaminess and stability"
+      },
+      {
+        name: "Vanilla bean",
+        quantity: "1 pod",
+        preparation: "Split lengthwise and seeds scraped"
+      },
+      {
+        name: "Salt",
+        quantity: "Pinch"
+      }
+    ],
+    steps: [
+      {
+        step: 1,
+        description: "In a medium saucepan, combine milk, cream, and scraped vanilla bean (both seeds and pod). Heat over medium-low heat until steaming but not boiling (about 75°C).",
+        timing: "8-10 minutes"
+      },
+      {
+        step: 2,
+        description: "While heating, in a separate bowl, whisk together sugar, dextrose (if using), and skim milk powder (if using) until well combined.",
+        timing: "2 minutes"
+      },
+      {
+        step: 3,
+        description: "When the milk mixture is steaming, remove from heat. Remove the vanilla pod, then gradually whisk in the sugar mixture until fully dissolved.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 4,
+        description: "Return to low heat and cook, stirring constantly, until the mixture reaches 85°C and slightly thickens to coat the back of a spoon.",
+        timing: "5-6 minutes"
+      },
+      {
+        step: 5,
+        description: "Remove from heat and add the pinch of salt. Strain through a fine-mesh sieve into a clean bowl.",
+        timing: "1 minute"
+      },
+      {
+        step: 6,
+        description: "Cover with plastic wrap, pressing it directly onto the surface of the mixture to prevent a skin from forming. Refrigerate until completely chilled (at least 4 hours, preferably overnight).",
+        timing: "4 hours minimum"
+      },
+      {
+        step: 7,
+        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions until it reaches a soft, creamy consistency.",
+        timing: "20-25 minutes depending on your machine"
+      },
+      {
+        step: 8,
+        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to firm up to the perfect scooping consistency.",
+        timing: "2-3 hours"
+      }
+    ],
+    tips: [
+      "The quality of milk and cream is crucial for fiordilatte. In Italy, artisans often use milk from specific regional dairies.",
+      "Authentic fiordilatte should taste rich and milky without being overly sweet or heavy.",
+      "For variation, infuse the milk with fresh herbs like mint or basil, or citrus zest during heating, then strain out before churning.",
+      "This gelato serves as an excellent base for showcasing toppings like fresh berries, balsamic reduction, or high-quality olive oil (a gourmet Italian combination)."
+    ],
+    history: "Fiordilatte (literally 'flower of milk') is the foundation of Italian gelato tradition. The renowned gelato schools in Bologna and Turin teach that mastering fiordilatte is essential before attempting any other cream-based flavors. The simplicity of fiordilatte showcases the difference between Italian gelato and standard ice cream – its focus on pure milk flavor rather than heavy cream, lower fat content, and less incorporated air creates its characteristic dense, silky texture. Traditionally made without eggs, true fiordilatte celebrates dairy in its purest form.",
+    color: "bg-white"
+  },
+  {
+    id: "mirtillo",
+    name: "Mirtillo (Blueberry)",
+    description: "A vibrant, antioxidant-rich sorbet that captures the sweet-tart essence of wild Italian blueberries, often harvested from the Alpine regions.",
+    type: "fruit-based",
+    difficulty: "easy",
+    totalTime: "3-4 hours (including freezing time)",
+    servings: 6,
+    equipment: [
+      "Gelato maker or ice cream machine",
+      "Blender or food processor",
+      "Fine-mesh strainer",
+      "Medium saucepan",
+      "Rubber spatula",
+      "Airtight storage container"
+    ],
+    ingredients: [
+      {
+        name: "Fresh blueberries (wild if available)",
+        quantity: "700g",
+        preparation: "Wash and sort, removing any stems or damaged berries"
+      },
+      {
+        name: "Granulated sugar",
+        quantity: "170g"
+      },
+      {
+        name: "Water",
+        quantity: "120ml"
+      },
+      {
+        name: "Lemon juice, freshly squeezed",
+        quantity: "2 tablespoons"
+      },
+      {
+        name: "Glucose syrup (or corn syrup)",
+        quantity: "30g",
+        preparation: "For texture improvement"
+      },
+      {
+        name: "Salt",
+        quantity: "Tiny pinch"
+      }
+    ],
+    steps: [
+      {
+        step: 1,
+        description: "In a medium saucepan, combine water and sugar. Heat over medium heat, stirring until the sugar is completely dissolved and the syrup is clear. Add glucose syrup and stir until dissolved. Remove from heat and let cool slightly.",
+        timing: "5-7 minutes"
+      },
+      {
+        step: 2,
+        description: "In a blender or food processor, puree the blueberries until smooth.",
+        timing: "1-2 minutes"
+      },
+      {
+        step: 3,
+        description: "Pass the blueberry puree through a fine-mesh strainer to remove skins and seeds, pressing gently with a spatula to extract as much liquid as possible.",
+        timing: "5-7 minutes"
+      },
+      {
+        step: 4,
+        description: "Combine the strained blueberry puree with the sugar syrup. Add lemon juice and salt, then stir thoroughly.",
+        timing: "1 minute"
+      },
+      {
+        step: 5,
+        description: "Cover and refrigerate the mixture until completely chilled, at least 2 hours or overnight for best results.",
+        timing: "2 hours minimum"
+      },
+      {
+        step: 6,
+        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions until the sorbet reaches a smooth consistency.",
+        timing: "20-25 minutes depending on your machine"
+      },
+      {
+        step: 7,
+        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to achieve the perfect scooping consistency.",
+        timing: "2 hours minimum"
+      }
+    ],
+    tips: [
+      "Wild blueberries produce a more intense flavor than cultivated varieties, but either type will work well.",
+      "The lemon juice not only brightens the flavor but helps maintain the vibrant purple-blue color.",
+      "For a more sophisticated version, add 1-2 tablespoons of grappa or limoncello toward the end of churning.",
+      "Serve with a sprig of fresh mint or a few whole fresh blueberries as garnish."
+    ],
+    history: "While not as traditional as some other Italian gelato flavors, blueberry (mirtillo) sorbet has gained popularity as health-conscious consumers seek fruit-based options. In the northern regions of Italy, particularly in the Alps where wild blueberries grow abundantly, this sorbet celebrates the summer harvest. The techniques taught at Italian gelato schools emphasize minimal processing of the fruit to preserve its natural flavor and nutritional properties, creating a sorbet that is both refreshing and intensely flavorful.",
+    color: "bg-gelato-blueberry"
+  },
+  {
+    id: "nocciola",
+    name: "Nocciola delle Langhe",
+    description: "A sophisticated hazelnut gelato showcasing the world-renowned Piedmont hazelnuts, celebrated for their rich, aromatic flavor and exceptional quality.",
+    type: "cream-based",
+    difficulty: "medium",
+    totalTime: "4-5 hours (including chilling time)",
+    servings: 8,
+    equipment: [
+      "Gelato maker or ice cream machine",
+      "Food processor or high-power blender",
+      "Medium saucepan",
+      "Baking sheet",
+      "Whisk",
+      "Rubber spatula",
+      "Digital thermometer",
+      "Fine-mesh strainer",
+      "Airtight storage container"
+    ],
+    ingredients: [
+      {
+        name: "Whole milk",
+        quantity: "500ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Heavy cream",
+        quantity: "120ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Granulated sugar",
+        quantity: "130g"
+      },
+      {
+        name: "Dextrose (optional)",
+        quantity: "25g"
+      },
+      {
+        name: "Egg yolks",
+        quantity: "4 large",
+        preparation: "Bring to room temperature and whisk until smooth"
+      },
+      {
+        name: "Piedmont hazelnuts (or highest quality available)",
+        quantity: "200g",
+        preparation: "Toast at 160°C for 12-15 minutes until fragrant and skins begin to crack"
+      },
+      {
+        name: "Hazelnut paste (pure, unsweetened)",
+        quantity: "60g (optional for intensified flavor)"
+      },
+      {
+        name: "Salt",
+        quantity: "¼ teaspoon"
+      },
+      {
+        name: "Vanilla extract",
+        quantity: "½ teaspoon"
+      }
+    ],
+    steps: [
+      {
+        step: 1,
+        description: "Toast the hazelnuts in a 160°C oven until fragrant and skins begin to crack. Wrap the hot hazelnuts in a clean kitchen towel and let steam for 1 minute. Rub vigorously in the towel to remove as much skin as possible (some skin remaining is fine).",
+        timing: "12-15 minutes toasting, 5 minutes skinning"
+      },
+      {
+        step: 2,
+        description: "Reserve about 40g of hazelnuts for garnish. In a food processor, grind the remaining hazelnuts until they form a paste (be careful not to over-process into butter).",
+        timing: "3-4 minutes"
+      },
+      {
+        step: 3,
+        description: "In a medium saucepan, combine milk and cream. Heat over medium-low heat until steaming but not boiling.",
+        timing: "8-10 minutes"
+      },
+      {
+        step: 4,
+        description: "While heating, in a separate bowl, whisk together sugar, dextrose (if using), and egg yolks until pale and slightly thickened.",
+        timing: "3-4 minutes"
+      },
+      {
+        step: 5,
+        description: "Slowly pour about 1 cup of the hot milk mixture into the egg mixture while whisking constantly to temper the eggs.",
+        timing: "1-2 minutes"
+      },
+      {
+        step: 6,
+        description: "Pour the tempered egg mixture back into the saucepan with the remaining milk. Cook over medium-low heat, stirring constantly, until the mixture thickens enough to coat the back of a spoon (82-85°C).",
+        timing: "6-8 minutes"
+      },
+      {
+        step: 7,
+        description: "Remove from heat and add the ground hazelnuts, hazelnut paste (if using), salt, and vanilla extract. Stir until thoroughly combined.",
+        timing: "2 minutes"
+      },
+      {
+        step: 8,
+        description: "Cover with plastic wrap, pressing it directly onto the surface of the mixture. Refrigerate until completely chilled (at least 4 hours, preferably overnight).",
+        timing: "4 hours minimum"
+      },
+      {
+        step: 9,
+        description: "Strain the mixture through a fine-mesh sieve, pressing gently to extract maximum flavor while removing any coarse particles.",
+        timing: "3-4 minutes"
+      },
+      {
+        step: 10,
+        description: "Pour the strained mixture into your gelato maker and churn according to the manufacturer's instructions.",
+        timing: "20-25 minutes depending on your machine"
+      },
+      {
+        step: 11,
+        description: "In the final minute of churning, add the reserved hazelnuts (roughly chopped) to incorporate them throughout the gelato.",
+        timing: "1 minute"
+      },
+      {
+        step: 12,
+        description: "Transfer to an airtight container and freeze for at least 3 hours before serving.",
+        timing: "3 hours minimum"
+      }
+    ],
+    tips: [
+      "Hazelnuts from the Piedmont region of Italy (particularly those from Langhe) are considered the finest in the world and will produce the most authentic flavor.",
+      "Toasting the hazelnuts is crucial for developing their full flavor profile.",
+      "The gelato will have the best flavor and texture when served slightly warmer than standard ice cream.",
+      "Nocciola pairs beautifully with chocolate sauce or a spoonful of gianduja spread."
+    ],
+    history: "Nocciola gelato is particularly celebrated in the Piedmont region of Italy, where the world's most prized hazelnuts grow. The famous gelato schools teach that nocciola should taste intensely of fresh, toasted hazelnuts with a rich, buttery finish. This flavor embodies the Italian principle of using regional ingredients at their peak, allowing their natural qualities to shine. Hazelnut gelato became popular alongside the rise of gianduja (chocolate-hazelnut paste) in the 19th century, and today remains one of the most beloved flavors in traditional Italian gelaterias.",
+    color: "bg-amber-600"
   }
 ];
 
