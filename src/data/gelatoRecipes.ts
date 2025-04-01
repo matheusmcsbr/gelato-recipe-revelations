@@ -34,10 +34,11 @@ const gelatoRecipes: GelatoRecipe[] = [
     description: "A luxurious, nutty gelato made with premium Sicilian Bronte pistachios, known for their intense flavor and vibrant green color.",
     type: "cream-based",
     difficulty: "medium",
-    totalTime: "4-5 hours (including chilling time)",
+    totalTime: "3-4 hours (including chilling time)",
     servings: 8,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
+      "Digital scale",
       "Medium saucepan",
       "Whisk",
       "Rubber spatula",
@@ -91,48 +92,48 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine milk and coconut cream. Heat over medium-low heat until steaming but not boiling (about 75°C).",
+        description: "Prepare the base mixture by combining milk and coconut cream in a medium saucepan. Heat over medium-low heat until steaming but not boiling (about 75°C).",
         timing: "8-10 minutes"
       },
       {
         step: 2,
-        description: "While heating, in a separate bowl, whisk together raw cane sugar, honey, and egg yolks until pale and slightly thickened.",
-        timing: "3-4 minutes"
+        description: "In a separate bowl, whisk together raw cane sugar, honey, and egg yolks. Slowly pour some hot milk mixture into the eggs while whisking to temper, then return to the saucepan.",
+        timing: "5-6 minutes"
       },
       {
         step: 3,
-        description: "Slowly pour about 1 cup of the hot milk mixture into the egg mixture while whisking constantly to temper the eggs.",
-        timing: "1-2 minutes"
+        description: "Heat the mixture gently until it reaches 85°C, stirring constantly. Remove from heat, add ground pistachios, pistachio paste, salt, and almond extract. Strain and chill completely.",
+        timing: "8-10 minutes plus 4 hours chilling"
       },
       {
         step: 4,
-        description: "Pour the tempered egg mixture back into the saucepan with the remaining milk and coconut cream. Cook over medium-low heat, stirring constantly with a wooden spoon or heat-resistant spatula, until the mixture thickens enough to coat the back of the spoon (82-85°C).",
-        timing: "6-8 minutes (critical step, be patient)"
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 5,
-        description: "Remove from heat and strain through a fine-mesh sieve into a clean bowl. Add ground pistachios, pistachio paste, salt, and almond extract (if using). Stir until completely incorporated.",
-        timing: "2-3 minutes"
+        description: "Pour the chilled base mixture into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 6,
-        description: "Cover the bowl with plastic wrap, pressing it directly onto the surface of the mixture to prevent a skin from forming. Refrigerate until completely chilled (at least 4 hours, preferably overnight).",
-        timing: "4 hours minimum"
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while incorporating air (less than traditional ice cream for authentic Italian texture).",
+        timing: "12-15 minutes processing"
       },
       {
         step: 7,
-        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions, usually until the consistency of soft-serve ice cream.",
-        timing: "20-30 minutes depending on your machine"
-      },
-      {
-        step: 8,
-        description: "In the final minute of churning, add the remaining chopped pistachios to incorporate them throughout the gelato.",
+        description: "When the machine signals completion, add the reserved chopped pistachios during the final mixing phase using the ingredient feeder.",
         timing: "1 minute"
       },
       {
+        step: 8,
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
         step: 9,
-        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to firm up to the perfect scooping consistency.",
-        timing: "2-4 hours"
+        description: "Transfer immediately to the blast freezer for perfect crystal formation, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
       }
     ],
     tips: [
@@ -150,12 +151,13 @@ const gelatoRecipes: GelatoRecipe[] = [
     description: "A refreshing, vibrant fruit sorbet made with ripe, seasonal strawberries that captures the essence of Italian summer.",
     type: "fruit-based",
     difficulty: "easy",
-    totalTime: "3-4 hours (including freezing time)",
+    totalTime: "2-3 hours (including freezing time)",
     servings: 6,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
       "Blender or food processor",
       "Fine-mesh strainer",
+      "Digital scale",
       "Medium saucepan",
       "Rubber spatula",
       "Airtight storage container"
@@ -191,38 +193,43 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine water, raw cane sugar, and honey. Heat over medium heat, stirring until fully dissolved and the syrup is clear. Remove from heat and let cool completely.",
-        timing: "5-7 minutes plus 15-20 minutes cooling time"
+        description: "Prepare the base mixture by combining water, raw cane sugar, and honey in a saucepan. Heat until dissolved, then cool completely.",
+        timing: "5-7 minutes plus 15 minutes cooling"
       },
       {
         step: 2,
-        description: "While the syrup is cooling, place prepared strawberries in a blender or food processor and puree until smooth.",
-        timing: "1-2 minutes"
+        description: "Process the strawberries in a blender until smooth, then strain through a fine-mesh sieve to remove seeds. Combine with the cooled syrup, lemon juice, and salt.",
+        timing: "5-7 minutes"
       },
       {
         step: 3,
-        description: "Pass the strawberry puree through a fine-mesh strainer to remove seeds, pressing gently with a spatula to extract as much liquid as possible. Discard seeds.",
-        timing: "3-5 minutes"
+        description: "Refrigerate the fruit mixture until thoroughly chilled (below 4°C).",
+        timing: "At least 2 hours"
       },
       {
         step: 4,
-        description: "Combine the strained strawberry puree with the cooled sugar syrup. Add lemon juice and salt, then stir thoroughly.",
-        timing: "1 minute"
+        description: "Power on the Carpigiani machine and set it to the sorbet production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 5,
-        description: "Cover and refrigerate the mixture until completely chilled, at least 2 hours or overnight for best results.",
-        timing: "2 hours minimum"
+        description: "Pour the chilled strawberry mixture into the Carpigiani hopper. Select the 'Fruit Sorbet' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 6,
-        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions until the sorbet reaches a smooth, soft-serve consistency.",
-        timing: "20-25 minutes depending on your machine"
+        description: "The Carpigiani machine will automatically mix and freeze the sorbet to the perfect consistency while controlling ice crystal formation for a smooth texture.",
+        timing: "10-12 minutes processing"
       },
       {
         step: 7,
-        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to achieve the perfect scooping consistency.",
-        timing: "2 hours minimum"
+        description: "Use the extraction lever to dispense the finished sorbet directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 8,
+        description: "Transfer immediately to the blast freezer or hardening cabinet for optimal texture development, or place in a conventional freezer for 1 hour before serving.",
+        timing: "20 minutes in blast freezer or 1 hour in conventional freezer"
       }
     ],
     tips: [
@@ -240,12 +247,13 @@ const gelatoRecipes: GelatoRecipe[] = [
     description: "An intense, rich dark chocolate gelato that showcases the depth and complexity of fine Italian chocolate craftsmanship.",
     type: "cream-based",
     difficulty: "medium",
-    totalTime: "4-5 hours (including chilling time)",
+    totalTime: "3-4 hours (including chilling time)",
     servings: 8,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
+      "Digital scale",
       "Medium saucepan",
-      "Heat-resistant bowl for melting chocolate",
+      "Heat-resistant bowl",
       "Whisk",
       "Rubber spatula",
       "Digital thermometer",
@@ -300,48 +308,43 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine milk and coconut cream. Heat over medium-low heat until steaming but not boiling.",
+        description: "Prepare the base mixture by combining milk and coconut cream in a saucepan. Heat until steaming (about 75°C).",
         timing: "8-10 minutes"
       },
       {
         step: 2,
-        description: "While the milk is heating, whisk together raw cane sugar, maple syrup, cocoa powder, and egg yolks in a bowl until well combined and slightly thickened.",
-        timing: "3-4 minutes"
+        description: "Whisk egg yolks with sugar, maple syrup, and cocoa powder. Temper with hot milk mixture, then return to saucepan and heat to 85°C while stirring constantly.",
+        timing: "8-10 minutes"
       },
       {
         step: 3,
-        description: "Slowly pour about 1 cup of the hot milk mixture into the egg mixture while whisking constantly to temper the eggs.",
-        timing: "1-2 minutes"
+        description: "Remove from heat, add chopped chocolate, salt, and vanilla bean seeds. Stir until chocolate is melted, then strain and chill thoroughly.",
+        timing: "5 minutes plus 4 hours chilling"
       },
       {
         step: 4,
-        description: "Pour the tempered egg mixture back into the saucepan with the remaining milk. Cook over medium-low heat, stirring constantly with a heat-resistant spatula, until mixture thickens enough to coat the back of a spoon (82-85°C).",
-        timing: "6-8 minutes (maintain constant vigilance)"
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 5,
-        description: "Remove from heat and immediately add the chopped chocolate. Let stand for 1 minute, then stir until the chocolate is completely melted and the mixture is smooth.",
-        timing: "2-3 minutes"
+        description: "Pour the chilled chocolate base into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 6,
-        description: "Add salt and vanilla bean seeds, then strain through a fine-mesh sieve into a clean bowl to remove any potential lumps.",
-        timing: "1 minute"
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while controlling overrun (air incorporation) for authentic dense Italian texture.",
+        timing: "12-15 minutes processing"
       },
       {
         step: 7,
-        description: "Cover with plastic wrap, pressing it directly onto the surface of the mixture to prevent a skin from forming. Refrigerate until completely chilled (at least 4 hours, preferably overnight).",
-        timing: "4 hours minimum"
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
       },
       {
         step: 8,
-        description: "Prior to churning, whisk the chilled mixture vigorously to ensure smooth consistency. Pour into your gelato maker and churn according to the manufacturer's instructions.",
-        timing: "20-25 minutes depending on your machine"
-      },
-      {
-        step: 9,
-        description: "Transfer to an airtight container and freeze for at least 3 hours before serving to firm up to the perfect scooping consistency.",
-        timing: "3-4 hours"
+        description: "Transfer immediately to the blast freezer for optimal texture development, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
       }
     ],
     tips: [
@@ -359,12 +362,13 @@ const gelatoRecipes: GelatoRecipe[] = [
     description: "A bright, refreshing sorbet that captures the essence of the famous lemons from the Amalfi Coast, celebrated for their intense aroma and perfect balance of sweetness and acidity.",
     type: "fruit-based",
     difficulty: "easy",
-    totalTime: "3-4 hours (including freezing time)",
+    totalTime: "2-3 hours (including freezing time)",
     servings: 6,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
       "Zester/microplane",
       "Citrus juicer",
+      "Digital scale",
       "Medium saucepan",
       "Fine-mesh strainer",
       "Airtight storage container"
@@ -401,48 +405,43 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "Carefully zest 2-3 lemons, making sure to avoid the bitter white pith beneath the zest. Set aside.",
-        timing: "2-3 minutes"
+        description: "Zest 2-3 lemons carefully, avoiding the bitter white pith. Juice enough lemons to obtain 300ml of fresh juice and strain to remove seeds.",
+        timing: "7-8 minutes"
       },
       {
         step: 2,
-        description: "Juice enough lemons to obtain 300ml of fresh juice. Strain the juice to remove any seeds or pulp.",
-        timing: "5-6 minutes"
+        description: "Prepare the syrup by combining water and sugar in a saucepan. Heat until dissolved, then add honey and lemon zest. Cool completely to allow flavor infusion.",
+        timing: "5-7 minutes plus 20 minutes cooling"
       },
       {
         step: 3,
-        description: "In a medium saucepan, combine water and raw cane sugar. Heat over medium heat, stirring until the sugar is completely dissolved and the syrup is clear.",
-        timing: "4-5 minutes"
+        description: "Strain the cooled syrup to remove zest, then combine with fresh lemon juice and salt. Refrigerate until thoroughly chilled (below 4°C).",
+        timing: "At least 2 hours"
       },
       {
         step: 4,
-        description: "Add honey and lemon zest to the sugar syrup. Stir until the honey is fully dissolved, then remove from heat.",
-        timing: "1-2 minutes"
+        description: "Power on the Carpigiani machine and set it to the sorbet production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 5,
-        description: "Let the syrup cool to room temperature, allowing the lemon zest to infuse its oils and aroma into the mixture.",
-        timing: "20-30 minutes"
+        description: "Pour the chilled lemon mixture into the Carpigiani hopper. Select the 'Fruit Sorbet' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 6,
-        description: "Strain the cooled syrup to remove the zest, then combine with the fresh lemon juice and pinch of salt. Stir thoroughly.",
-        timing: "1 minute"
+        description: "The Carpigiani machine will automatically mix and freeze the sorbet to the perfect consistency while controlling ice crystal formation for a smooth texture.",
+        timing: "10-12 minutes processing"
       },
       {
         step: 7,
-        description: "Cover and refrigerate the mixture until completely chilled, at least 2 hours or overnight for best results.",
-        timing: "2 hours minimum"
+        description: "Use the extraction lever to dispense the finished sorbet directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
       },
       {
         step: 8,
-        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions until the sorbet reaches a smooth consistency.",
-        timing: "20-25 minutes depending on your machine"
-      },
-      {
-        step: 9,
-        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to achieve the perfect scooping consistency.",
-        timing: "2 hours minimum"
+        description: "Transfer immediately to the blast freezer or hardening cabinet for optimal texture development, or place in a conventional freezer for 1 hour before serving.",
+        timing: "20 minutes in blast freezer or 1 hour in conventional freezer"
       }
     ],
     tips: [
@@ -463,12 +462,13 @@ const gelatoRecipes: GelatoRecipe[] = [
     totalTime: "3-4 hours (including chilling time)",
     servings: 8,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
+      "Digital scale",
       "Medium saucepan",
       "Whisk",
       "Rubber spatula",
-      "Fine-mesh strainer",
       "Digital thermometer",
+      "Fine-mesh strainer",
       "Airtight storage container"
     ],
     ingredients: [
@@ -509,43 +509,43 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine milk, coconut cream, and scraped vanilla bean (both seeds and pod). Heat over medium-low heat until steaming but not boiling (about 75°C).",
+        description: "Prepare the base mixture by combining milk, coconut cream, and scraped vanilla bean (both seeds and pod) in a saucepan. Heat until steaming (about 75°C).",
         timing: "8-10 minutes"
       },
       {
         step: 2,
-        description: "While heating, in a separate bowl, whisk together raw cane sugar, honey, and whole milk powder until well combined.",
-        timing: "2 minutes"
+        description: "In a separate bowl, whisk together raw cane sugar, honey, and whole milk powder. Add to hot milk mixture and stir until fully dissolved.",
+        timing: "3-4 minutes"
       },
       {
         step: 3,
-        description: "When the milk mixture is steaming, remove from heat. Remove the vanilla pod, then gradually whisk in the sugar mixture until fully dissolved.",
-        timing: "2-3 minutes"
+        description: "Heat the mixture gently to 85°C while stirring constantly. Remove from heat, add salt, remove vanilla pod, and strain. Chill thoroughly.",
+        timing: "5-6 minutes plus 4 hours chilling"
       },
       {
         step: 4,
-        description: "Return to low heat and cook, stirring constantly, until the mixture reaches 85°C and slightly thickens to coat the back of a spoon.",
-        timing: "5-6 minutes"
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 5,
-        description: "Remove from heat and add the pinch of salt. Strain through a fine-mesh sieve into a clean bowl.",
-        timing: "1 minute"
+        description: "Pour the chilled base mixture into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 6,
-        description: "Cover with plastic wrap, pressing it directly onto the surface of the mixture to prevent a skin from forming. Refrigerate until completely chilled (at least 4 hours, preferably overnight).",
-        timing: "4 hours minimum"
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while controlling overrun for authentic Italian texture.",
+        timing: "12-15 minutes processing"
       },
       {
         step: 7,
-        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions until it reaches a soft, creamy consistency.",
-        timing: "20-25 minutes depending on your machine"
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
       },
       {
         step: 8,
-        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to firm up to the perfect scooping consistency.",
-        timing: "2-3 hours"
+        description: "Transfer immediately to the blast freezer for optimal texture development, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
       }
     ],
     tips: [
@@ -563,10 +563,11 @@ const gelatoRecipes: GelatoRecipe[] = [
     description: "A vibrant, antioxidant-rich sorbet that captures the sweet-tart essence of wild Italian blueberries, often harvested from the Alpine regions.",
     type: "fruit-based",
     difficulty: "easy",
-    totalTime: "3-4 hours (including freezing time)",
+    totalTime: "2-3 hours (including freezing time)",
     servings: 6,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
+      "Digital scale",
       "Blender or food processor",
       "Fine-mesh strainer",
       "Medium saucepan",
@@ -604,38 +605,43 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine water, raw cane sugar, and honey. Heat over medium heat, stirring until fully dissolved and the syrup is clear. Remove from heat and let cool slightly.",
+        description: "Prepare the syrup by combining water, raw cane sugar, and honey in a saucepan. Heat until fully dissolved, then let cool slightly.",
         timing: "5-7 minutes"
       },
       {
         step: 2,
-        description: "In a blender or food processor, puree the blueberries until smooth.",
-        timing: "1-2 minutes"
+        description: "Process the blueberries in a blender until smooth, then strain through a fine-mesh sieve to remove skins and seeds.",
+        timing: "6-8 minutes"
       },
       {
         step: 3,
-        description: "Pass the blueberry puree through a fine-mesh strainer to remove skins and seeds, pressing gently with a spatula to extract as much liquid as possible.",
-        timing: "5-7 minutes"
+        description: "Combine the strained blueberry puree with the sugar syrup, lemon juice, and salt. Refrigerate until thoroughly chilled (below 4°C).",
+        timing: "At least 2 hours"
       },
       {
         step: 4,
-        description: "Combine the strained blueberry puree with the sugar syrup. Add lemon juice and salt, then stir thoroughly.",
-        timing: "1 minute"
+        description: "Power on the Carpigiani machine and set it to the sorbet production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 5,
-        description: "Cover and refrigerate the mixture until completely chilled, at least 2 hours or overnight for best results.",
-        timing: "2 hours minimum"
+        description: "Pour the chilled blueberry mixture into the Carpigiani hopper. Select the 'Fruit Sorbet' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 6,
-        description: "Pour the chilled mixture into your gelato maker and churn according to the manufacturer's instructions until the sorbet reaches a smooth consistency.",
-        timing: "20-25 minutes depending on your machine"
+        description: "The Carpigiani machine will automatically mix and freeze the sorbet to the perfect consistency while controlling ice crystal formation for a smooth texture.",
+        timing: "10-12 minutes processing"
       },
       {
         step: 7,
-        description: "Transfer to an airtight container and freeze for at least 2 hours before serving to achieve the perfect scooping consistency.",
-        timing: "2 hours minimum"
+        description: "Use the extraction lever to dispense the finished sorbet directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 8,
+        description: "Transfer immediately to the blast freezer or hardening cabinet for optimal texture development, or place in a conventional freezer for 1 hour before serving.",
+        timing: "20 minutes in blast freezer or 1 hour in conventional freezer"
       }
     ],
     tips: [
@@ -653,10 +659,11 @@ const gelatoRecipes: GelatoRecipe[] = [
     description: "A sophisticated hazelnut gelato showcasing the world-renowned Piedmont hazelnuts, celebrated for their rich, aromatic flavor and exceptional quality.",
     type: "cream-based",
     difficulty: "medium",
-    totalTime: "4-5 hours (including chilling time)",
+    totalTime: "3-4 hours (including chilling time)",
     servings: 8,
     equipment: [
-      "Gelato maker or ice cream machine",
+      "Carpigiani gelato machine",
+      "Digital scale",
       "Food processor or high-power blender",
       "Medium saucepan",
       "Baking sheet",
@@ -713,63 +720,53 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "Toast the hazelnuts in a 160°C oven until fragrant and skins begin to crack. Wrap the hot hazelnuts in a clean kitchen towel and let steam for 1 minute. Rub vigorously in the towel to remove as much skin as possible (some skin remaining is fine).",
-        timing: "12-15 minutes toasting, 5 minutes skinning"
+        description: "Toast the hazelnuts in a 160°C oven until fragrant and skins begin to crack. Wrap in a clean kitchen towel and rub vigorously to remove skins. Reserve 40g for garnish and grind the rest.",
+        timing: "15-20 minutes total"
       },
       {
         step: 2,
-        description: "Reserve about 40g of hazelnuts for garnish. In a food processor, grind the remaining hazelnuts until they form a paste (be careful not to over-process into butter).",
-        timing: "3-4 minutes"
+        description: "Prepare the base mixture by combining milk and coconut cream in a saucepan. Heat until steaming (about 75°C).",
+        timing: "8-10 minutes"
       },
       {
         step: 3,
-        description: "In a medium saucepan, combine milk and coconut cream. Heat over medium-low heat until steaming but not boiling.",
+        description: "Whisk egg yolks with sugar and maple syrup. Temper with hot milk mixture, then return to saucepan and heat to 85°C while stirring constantly.",
         timing: "8-10 minutes"
       },
       {
         step: 4,
-        description: "While heating, in a separate bowl, whisk together raw cane sugar, maple syrup, and egg yolks until pale and slightly thickened.",
-        timing: "3-4 minutes"
+        description: "Remove from heat, add ground hazelnuts, hazelnut paste (if using), salt, and vanilla bean seeds. Stir to combine, then strain and chill thoroughly.",
+        timing: "5 minutes plus 4 hours chilling"
       },
       {
         step: 5,
-        description: "Slowly pour about 1 cup of the hot milk mixture into the egg mixture while whisking constantly to temper the eggs.",
-        timing: "1-2 minutes"
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
       },
       {
         step: 6,
-        description: "Pour the tempered egg mixture back into the saucepan with the remaining milk. Cook over medium-low heat, stirring constantly, until the mixture thickens enough to coat the back of a spoon (82-85°C).",
-        timing: "6-8 minutes"
+        description: "Pour the chilled hazelnut base into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
       },
       {
         step: 7,
-        description: "Remove from heat and add the ground hazelnuts, hazelnut paste (if using), salt, and vanilla bean seeds. Stir until thoroughly combined.",
-        timing: "2 minutes"
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while controlling overrun for authentic Italian texture.",
+        timing: "12-15 minutes processing"
       },
       {
         step: 8,
-        description: "Cover with plastic wrap, pressing it directly onto the surface of the mixture. Refrigerate until completely chilled (at least 4 hours, preferably overnight).",
-        timing: "4 hours minimum"
-      },
-      {
-        step: 9,
-        description: "Strain the mixture through a fine-mesh sieve, pressing gently to extract maximum flavor while removing any coarse particles.",
-        timing: "3-4 minutes"
-      },
-      {
-        step: 10,
-        description: "Pour the strained mixture into your gelato maker and churn according to the manufacturer's instructions.",
-        timing: "20-25 minutes depending on your machine"
-      },
-      {
-        step: 11,
-        description: "In the final minute of churning, add the reserved hazelnuts (roughly chopped) to incorporate them throughout the gelato.",
+        description: "During the final minute of processing, add the reserved chopped hazelnuts through the ingredient feeder.",
         timing: "1 minute"
       },
       {
-        step: 12,
-        description: "Transfer to an airtight container and freeze for at least 3 hours before serving.",
-        timing: "3 hours minimum"
+        step: 9,
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 10,
+        description: "Transfer immediately to the blast freezer for optimal texture development, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
       }
     ],
     tips: [
