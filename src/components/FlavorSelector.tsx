@@ -33,7 +33,7 @@ const FlavorSelector: React.FC<FlavorSelectorProps> = ({ onSelectFlavor, selecte
           <SelectValue placeholder="Select a flavor" />
           <ChevronDown className="h-4 w-4 opacity-50" />
         </SelectTrigger>
-        <SelectContent className="bg-white w-full" sideOffset={4}>
+        <SelectContent className="bg-white w-[350px]" sideOffset={4}>
           <div className="grid grid-cols-1 gap-1 p-1">
             <div className="px-2 py-1.5 text-sm font-medium text-muted-foreground">Cream-based</div>
             {gelatoRecipes
@@ -42,10 +42,10 @@ const FlavorSelector: React.FC<FlavorSelectorProps> = ({ onSelectFlavor, selecte
                 <SelectItem
                   key={flavor.id}
                   value={flavor.id}
-                  className="cursor-pointer rounded-md flex items-center gap-2 pr-6"
+                  className="cursor-pointer rounded-md flex items-center gap-2 pr-8 whitespace-nowrap"
                 >
-                  <div className={`w-3 h-3 rounded-full ${flavor.color}`}></div>
-                  <span className="truncate">{flavor.name}</span>
+                  <div className={`w-3 h-3 rounded-full flex-shrink-0 ${flavor.color}`}></div>
+                  <span className="overflow-hidden text-ellipsis">{flavor.name}</span>
                 </SelectItem>
               ))
             }
@@ -57,10 +57,10 @@ const FlavorSelector: React.FC<FlavorSelectorProps> = ({ onSelectFlavor, selecte
                 <SelectItem
                   key={flavor.id}
                   value={flavor.id}
-                  className="cursor-pointer rounded-md flex items-center gap-2 pr-6"
+                  className="cursor-pointer rounded-md flex items-center gap-2 pr-8 whitespace-nowrap"
                 >
-                  <div className={`w-3 h-3 rounded-full ${flavor.color}`}></div>
-                  <span className="truncate">{flavor.name}</span>
+                  <div className={`w-3 h-3 rounded-full flex-shrink-0 ${flavor.color}`}></div>
+                  <span className="overflow-hidden text-ellipsis">{flavor.name}</span>
                 </SelectItem>
               ))
             }

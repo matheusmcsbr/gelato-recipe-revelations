@@ -1,4 +1,3 @@
-
 export interface Ingredient {
   name: string;
   quantity: string;
@@ -53,17 +52,18 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Refrigerate until cold"
       },
       {
-        name: "Heavy cream",
+        name: "Coconut cream",
         quantity: "150ml",
-        preparation: "Refrigerate until cold"
+        preparation: "Refrigerate until cold (substitute for heavy cream)"
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "150g"
       },
       {
-        name: "Dextrose (optional, for smoother texture)",
-        quantity: "30g"
+        name: "Honey",
+        quantity: "30g",
+        preparation: "Substitute for dextrose, provides smoothness and natural sweetness"
       },
       {
         name: "Egg yolks",
@@ -80,7 +80,7 @@ const gelatoRecipes: GelatoRecipe[] = [
         quantity: "80g"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "Pinch"
       },
       {
@@ -91,12 +91,12 @@ const gelatoRecipes: GelatoRecipe[] = [
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine milk and cream. Heat over medium-low heat until steaming but not boiling (about 75°C).",
+        description: "In a medium saucepan, combine milk and coconut cream. Heat over medium-low heat until steaming but not boiling (about 75°C).",
         timing: "8-10 minutes"
       },
       {
         step: 2,
-        description: "While heating, in a separate bowl, whisk together sugar, dextrose (if using), and egg yolks until pale and slightly thickened.",
+        description: "While heating, in a separate bowl, whisk together raw cane sugar, honey, and egg yolks until pale and slightly thickened.",
         timing: "3-4 minutes"
       },
       {
@@ -106,7 +106,7 @@ const gelatoRecipes: GelatoRecipe[] = [
       },
       {
         step: 4,
-        description: "Pour the tempered egg mixture back into the saucepan with the remaining milk and cream. Cook over medium-low heat, stirring constantly with a wooden spoon or heat-resistant spatula, until the mixture thickens enough to coat the back of the spoon (82-85°C).",
+        description: "Pour the tempered egg mixture back into the saucepan with the remaining milk and coconut cream. Cook over medium-low heat, stirring constantly with a wooden spoon or heat-resistant spatula, until the mixture thickens enough to coat the back of the spoon (82-85°C).",
         timing: "6-8 minutes (critical step, be patient)"
       },
       {
@@ -167,7 +167,7 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Wash, hull, and quarter. Let sit at room temperature for 30 minutes to maximize flavor"
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "150g"
       },
       {
@@ -179,19 +179,19 @@ const gelatoRecipes: GelatoRecipe[] = [
         quantity: "1 tablespoon"
       },
       {
-        name: "Glucose syrup (or corn syrup)",
+        name: "Honey",
         quantity: "30g",
-        preparation: "This prevents crystallization and improves texture"
+        preparation: "Natural substitute for glucose syrup to prevent crystallization"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "Tiny pinch"
       }
     ],
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine water and sugar. Heat over medium heat, stirring until the sugar is completely dissolved and the syrup is clear. Add glucose syrup and stir until dissolved. Remove from heat and let cool completely.",
+        description: "In a medium saucepan, combine water, raw cane sugar, and honey. Heat over medium heat, stirring until fully dissolved and the syrup is clear. Remove from heat and let cool completely.",
         timing: "5-7 minutes plus 15-20 minutes cooling time"
       },
       {
@@ -259,18 +259,18 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Refrigerate until cold"
       },
       {
-        name: "Heavy cream",
+        name: "Coconut cream",
         quantity: "100ml",
-        preparation: "Refrigerate until cold"
+        preparation: "Refrigerate until cold (natural substitute for heavy cream)"
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "120g"
       },
       {
-        name: "Dextrose (optional)",
+        name: "Maple syrup",
         quantity: "20g",
-        preparation: "Helps prevent crystallization"
+        preparation: "Natural substitute for dextrose to prevent crystallization"
       },
       {
         name: "Egg yolks",
@@ -288,23 +288,24 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Sifted"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "¼ teaspoon"
       },
       {
-        name: "Vanilla extract",
-        quantity: "1 teaspoon"
+        name: "Vanilla bean",
+        quantity: "1 pod",
+        preparation: "Split and scraped (natural substitute for vanilla extract)"
       }
     ],
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine milk and cream. Heat over medium-low heat until steaming but not boiling.",
+        description: "In a medium saucepan, combine milk and coconut cream. Heat over medium-low heat until steaming but not boiling.",
         timing: "8-10 minutes"
       },
       {
         step: 2,
-        description: "While the milk is heating, whisk together sugar, dextrose (if using), cocoa powder, and egg yolks in a bowl until well combined and slightly thickened.",
+        description: "While the milk is heating, whisk together raw cane sugar, maple syrup, cocoa powder, and egg yolks in a bowl until well combined and slightly thickened.",
         timing: "3-4 minutes"
       },
       {
@@ -324,7 +325,7 @@ const gelatoRecipes: GelatoRecipe[] = [
       },
       {
         step: 6,
-        description: "Add salt and vanilla extract, then strain through a fine-mesh sieve into a clean bowl to remove any potential lumps.",
+        description: "Add salt and vanilla bean seeds, then strain through a fine-mesh sieve into a clean bowl to remove any potential lumps.",
         timing: "1 minute"
       },
       {
@@ -375,7 +376,7 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Wash thoroughly, zest first, then juice. Room temperature lemons yield more juice."
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "200g"
       },
       {
@@ -383,9 +384,9 @@ const gelatoRecipes: GelatoRecipe[] = [
         quantity: "300ml"
       },
       {
-        name: "Glucose syrup",
+        name: "Honey",
         quantity: "30g",
-        preparation: "Helps prevent crystallization and creates smoother texture"
+        preparation: "Natural substitute for glucose syrup to create smoother texture"
       },
       {
         name: "Lemon zest",
@@ -393,7 +394,7 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Zest should be fine, with no white pith"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "Tiny pinch"
       }
     ],
@@ -410,12 +411,12 @@ const gelatoRecipes: GelatoRecipe[] = [
       },
       {
         step: 3,
-        description: "In a medium saucepan, combine water and sugar. Heat over medium heat, stirring until the sugar is completely dissolved and the syrup is clear.",
+        description: "In a medium saucepan, combine water and raw cane sugar. Heat over medium heat, stirring until the sugar is completely dissolved and the syrup is clear.",
         timing: "4-5 minutes"
       },
       {
         step: 4,
-        description: "Add glucose syrup and lemon zest to the sugar syrup. Stir until the glucose is fully dissolved, then remove from heat.",
+        description: "Add honey and lemon zest to the sugar syrup. Stir until the honey is fully dissolved, then remove from heat.",
         timing: "1-2 minutes"
       },
       {
@@ -477,23 +478,23 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Refrigerate until cold"
       },
       {
-        name: "Heavy cream",
+        name: "Coconut cream",
         quantity: "200ml",
-        preparation: "Refrigerate until cold"
+        preparation: "Refrigerate until cold (natural substitute for heavy cream)"
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "150g"
       },
       {
-        name: "Dextrose (optional)",
+        name: "Honey",
         quantity: "25g",
-        preparation: "Helps prevent crystallization"
+        preparation: "Natural substitute for dextrose to prevent crystallization"
       },
       {
-        name: "Skim milk powder (optional)",
+        name: "Whole milk powder",
         quantity: "25g",
-        preparation: "Enhances creaminess and stability"
+        preparation: "Natural substitute for skim milk powder to enhance creaminess"
       },
       {
         name: "Vanilla bean",
@@ -501,19 +502,19 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Split lengthwise and seeds scraped"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "Pinch"
       }
     ],
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine milk, cream, and scraped vanilla bean (both seeds and pod). Heat over medium-low heat until steaming but not boiling (about 75°C).",
+        description: "In a medium saucepan, combine milk, coconut cream, and scraped vanilla bean (both seeds and pod). Heat over medium-low heat until steaming but not boiling (about 75°C).",
         timing: "8-10 minutes"
       },
       {
         step: 2,
-        description: "While heating, in a separate bowl, whisk together sugar, dextrose (if using), and skim milk powder (if using) until well combined.",
+        description: "While heating, in a separate bowl, whisk together raw cane sugar, honey, and whole milk powder until well combined.",
         timing: "2 minutes"
       },
       {
@@ -579,7 +580,7 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Wash and sort, removing any stems or damaged berries"
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "170g"
       },
       {
@@ -591,19 +592,19 @@ const gelatoRecipes: GelatoRecipe[] = [
         quantity: "2 tablespoons"
       },
       {
-        name: "Glucose syrup (or corn syrup)",
+        name: "Honey",
         quantity: "30g",
-        preparation: "For texture improvement"
+        preparation: "Natural substitute for glucose syrup to improve texture"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "Tiny pinch"
       }
     ],
     steps: [
       {
         step: 1,
-        description: "In a medium saucepan, combine water and sugar. Heat over medium heat, stirring until the sugar is completely dissolved and the syrup is clear. Add glucose syrup and stir until dissolved. Remove from heat and let cool slightly.",
+        description: "In a medium saucepan, combine water, raw cane sugar, and honey. Heat over medium heat, stirring until fully dissolved and the syrup is clear. Remove from heat and let cool slightly.",
         timing: "5-7 minutes"
       },
       {
@@ -672,17 +673,18 @@ const gelatoRecipes: GelatoRecipe[] = [
         preparation: "Refrigerate until cold"
       },
       {
-        name: "Heavy cream",
+        name: "Coconut cream",
         quantity: "120ml",
-        preparation: "Refrigerate until cold"
+        preparation: "Refrigerate until cold (natural substitute for heavy cream)"
       },
       {
-        name: "Granulated sugar",
+        name: "Raw cane sugar",
         quantity: "130g"
       },
       {
-        name: "Dextrose (optional)",
-        quantity: "25g"
+        name: "Maple syrup",
+        quantity: "25g",
+        preparation: "Natural substitute for dextrose to create smoother texture"
       },
       {
         name: "Egg yolks",
@@ -699,12 +701,13 @@ const gelatoRecipes: GelatoRecipe[] = [
         quantity: "60g (optional for intensified flavor)"
       },
       {
-        name: "Salt",
+        name: "Sea salt",
         quantity: "¼ teaspoon"
       },
       {
-        name: "Vanilla extract",
-        quantity: "½ teaspoon"
+        name: "Vanilla bean",
+        quantity: "½ pod",
+        preparation: "Split and scraped (natural substitute for vanilla extract)"
       }
     ],
     steps: [
@@ -720,12 +723,12 @@ const gelatoRecipes: GelatoRecipe[] = [
       },
       {
         step: 3,
-        description: "In a medium saucepan, combine milk and cream. Heat over medium-low heat until steaming but not boiling.",
+        description: "In a medium saucepan, combine milk and coconut cream. Heat over medium-low heat until steaming but not boiling.",
         timing: "8-10 minutes"
       },
       {
         step: 4,
-        description: "While heating, in a separate bowl, whisk together sugar, dextrose (if using), and egg yolks until pale and slightly thickened.",
+        description: "While heating, in a separate bowl, whisk together raw cane sugar, maple syrup, and egg yolks until pale and slightly thickened.",
         timing: "3-4 minutes"
       },
       {
@@ -740,7 +743,7 @@ const gelatoRecipes: GelatoRecipe[] = [
       },
       {
         step: 7,
-        description: "Remove from heat and add the ground hazelnuts, hazelnut paste (if using), salt, and vanilla extract. Stir until thoroughly combined.",
+        description: "Remove from heat and add the ground hazelnuts, hazelnut paste (if using), salt, and vanilla bean seeds. Stir until thoroughly combined.",
         timing: "2 minutes"
       },
       {
