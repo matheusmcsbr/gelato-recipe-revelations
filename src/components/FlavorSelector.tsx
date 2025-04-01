@@ -40,10 +40,10 @@ const FlavorSelector: React.FC<FlavorSelectorProps> = ({ onSelectFlavor, selecte
                 <SelectItem
                   key={flavor.id}
                   value={flavor.id}
-                  className="cursor-pointer rounded-md flex items-center gap-2 pr-8 whitespace-normal"
+                  className="cursor-pointer rounded-md flex items-center gap-2 pr-8 whitespace-normal min-h-[32px]"
                 >
                   <div className={`w-3 h-3 rounded-full flex-shrink-0 ${flavor.color}`}></div>
-                  <span>{flavor.name}</span>
+                  <span className="truncate max-w-[270px]">{flavor.name}</span>
                 </SelectItem>
               ))
             }
@@ -55,10 +55,10 @@ const FlavorSelector: React.FC<FlavorSelectorProps> = ({ onSelectFlavor, selecte
                 <SelectItem
                   key={flavor.id}
                   value={flavor.id}
-                  className="cursor-pointer rounded-md flex items-center gap-2 pr-8 whitespace-normal"
+                  className="cursor-pointer rounded-md flex items-center gap-2 pr-8 whitespace-normal min-h-[32px]"
                 >
                   <div className={`w-3 h-3 rounded-full flex-shrink-0 ${flavor.color}`}></div>
-                  <span>{flavor.name}</span>
+                  <span className="truncate max-w-[270px]">{flavor.name}</span>
                 </SelectItem>
               ))
             }

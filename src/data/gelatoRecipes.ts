@@ -777,6 +777,406 @@ const gelatoRecipes: GelatoRecipe[] = [
     ],
     history: "Nocciola gelato is particularly celebrated in the Piedmont region of Italy, where the world's most prized hazelnuts grow. The famous gelato schools teach that nocciola should taste intensely of fresh, toasted hazelnuts with a rich, buttery finish. This flavor embodies the Italian principle of using regional ingredients at their peak, allowing their natural qualities to shine. Hazelnut gelato became popular alongside the rise of gianduja (chocolate-hazelnut paste) in the 19th century, and today remains one of the most beloved flavors in traditional Italian gelaterias.",
     color: "bg-amber-600"
+  },
+  {
+    id: "stracciatella",
+    name: "Stracciatella",
+    description: "The elegant simplicity of fiordilatte gelato with fine ribbons of rich, high-quality dark chocolate scattered throughout—a timeless classic representing the pinnacle of Italian gelato craftsmanship.",
+    type: "cream-based",
+    difficulty: "medium",
+    totalTime: "3-4 hours (including chilling time)",
+    servings: 8,
+    equipment: [
+      "Carpigiani gelato machine",
+      "Digital scale",
+      "Medium saucepan",
+      "Whisk",
+      "Rubber spatula",
+      "Digital thermometer",
+      "Fine-mesh strainer",
+      "Airtight storage container"
+    ],
+    ingredients: [
+      {
+        name: "Whole milk (highest quality available)",
+        quantity: "600ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Coconut cream",
+        quantity: "200ml",
+        preparation: "Refrigerate until cold (natural substitute for heavy cream)"
+      },
+      {
+        name: "Raw cane sugar",
+        quantity: "150g"
+      },
+      {
+        name: "Honey",
+        quantity: "30g",
+        preparation: "Natural substitute for dextrose to prevent crystallization"
+      },
+      {
+        name: "Egg yolks",
+        quantity: "4 large",
+        preparation: "Bring to room temperature and whisk until smooth"
+      },
+      {
+        name: "High-quality dark chocolate (70% cocoa solids)",
+        quantity: "120g",
+        preparation: "Finely chopped"
+      },
+      {
+        name: "Vanilla bean",
+        quantity: "1 pod",
+        preparation: "Split lengthwise and seeds scraped"
+      },
+      {
+        name: "Sea salt",
+        quantity: "Pinch"
+      },
+      {
+        name: "Extra virgin olive oil",
+        quantity: "1 teaspoon",
+        preparation: "For melting chocolate (helps create thinner ribbons)"
+      }
+    ],
+    steps: [
+      {
+        step: 1,
+        description: "Prepare the base mixture by combining milk, coconut cream, and scraped vanilla bean (both seeds and pod) in a saucepan. Heat until steaming (about 75°C).",
+        timing: "8-10 minutes"
+      },
+      {
+        step: 2,
+        description: "In a separate bowl, whisk together raw cane sugar, honey, and egg yolks. Slowly pour some hot milk mixture into the eggs while whisking to temper, then return to the saucepan.",
+        timing: "5-6 minutes"
+      },
+      {
+        step: 3,
+        description: "Heat the mixture gently until it reaches 85°C, stirring constantly. Remove from heat, add salt, remove vanilla pod, and strain. Chill thoroughly.",
+        timing: "5-6 minutes plus 4 hours chilling"
+      },
+      {
+        step: 4,
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
+      },
+      {
+        step: 5,
+        description: "Pour the chilled base mixture into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
+      },
+      {
+        step: 6,
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while controlling overrun for authentic Italian texture.",
+        timing: "12-15 minutes processing"
+      },
+      {
+        step: 7,
+        description: "While the gelato is churning, gently melt the chocolate with the olive oil in a double boiler or microwave in short bursts. Let cool slightly but maintain fluidity.",
+        timing: "4-5 minutes"
+      },
+      {
+        step: 8,
+        description: "When the gelato is nearly finished (about 2 minutes before completion), slowly drizzle the melted chocolate into the churning gelato through the ingredient feeder. The cold temperature will instantly solidify the chocolate into thin, delicate ribbons ('stracciatella' means 'little shreds').",
+        timing: "1-2 minutes"
+      },
+      {
+        step: 9,
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 10,
+        description: "Transfer immediately to the blast freezer for optimal texture development, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
+      }
+    ],
+    tips: [
+      "The drizzling technique is crucial - the chocolate should form delicate ribbons, not large chips. The small amount of olive oil helps achieve the right consistency.",
+      "Using high-quality chocolate (preferably Italian brands like Amedei or Domori) makes a significant difference in the final flavor.",
+      "The base should be fully churned and nearly ready before adding the chocolate, otherwise the ribbons will be too thick.",
+      "For an authentic experience, serve slightly warmer than American ice cream, at around -12°C instead of -18°C."
+    ],
+    history: "Stracciatella gelato was invented in 1962 by Enrico Panattoni at his Ristorante La Marianna in Bergamo, northern Italy. Inspired by 'stracciatella' soup (with its fine ribbons of egg), Panattoni wanted to create a gelato that featured delicate shards of chocolate throughout a pure, cream base. His ingenious technique of drizzling melted chocolate into churning gelato revolutionized the gelato world, creating one of Italy's most beloved flavors. True artisanal stracciatella should have fine, irregular ribbons of chocolate that melt on the tongue, contrasting beautifully with the sweet, smooth base.",
+    color: "bg-white"
+  },
+  {
+    id: "gianduia",
+    name: "Gianduia",
+    description: "A luxurious blend of premium hazelnut and chocolate, this gelato pays homage to Turin's famous chocolate-hazelnut confection, delivering a silky, nutty indulgence that represents the height of northern Italian gelato artistry.",
+    type: "cream-based",
+    difficulty: "medium",
+    totalTime: "3-4 hours (including chilling time)",
+    servings: 8,
+    equipment: [
+      "Carpigiani gelato machine",
+      "Digital scale",
+      "Food processor or high-power blender",
+      "Medium saucepan",
+      "Baking sheet",
+      "Whisk",
+      "Rubber spatula",
+      "Digital thermometer",
+      "Fine-mesh strainer",
+      "Airtight storage container"
+    ],
+    ingredients: [
+      {
+        name: "Whole milk",
+        quantity: "500ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Coconut cream",
+        quantity: "120ml",
+        preparation: "Refrigerate until cold (natural substitute for heavy cream)"
+      },
+      {
+        name: "Raw cane sugar",
+        quantity: "120g"
+      },
+      {
+        name: "Maple syrup",
+        quantity: "25g",
+        preparation: "Natural substitute for dextrose to create smoother texture"
+      },
+      {
+        name: "Egg yolks",
+        quantity: "4 large",
+        preparation: "Bring to room temperature and whisk until smooth"
+      },
+      {
+        name: "Piedmont hazelnuts (or highest quality available)",
+        quantity: "200g",
+        preparation: "Toast at 160°C for 12-15 minutes until fragrant and skins begin to crack"
+      },
+      {
+        name: "High-quality dark chocolate (70% cocoa solids)",
+        quantity: "80g",
+        preparation: "Finely chopped"
+      },
+      {
+        name: "Unsweetened cocoa powder (Dutch-processed)",
+        quantity: "20g",
+        preparation: "Sifted"
+      },
+      {
+        name: "Sea salt",
+        quantity: "¼ teaspoon"
+      },
+      {
+        name: "Vanilla bean",
+        quantity: "½ pod",
+        preparation: "Split and scraped (natural substitute for vanilla extract)"
+      }
+    ],
+    steps: [
+      {
+        step: 1,
+        description: "Toast the hazelnuts in a 160°C oven until fragrant and skins begin to crack. Wrap in a clean kitchen towel and rub vigorously to remove skins. Reserve 30g for garnish and grind the rest to a paste in a food processor.",
+        timing: "20-25 minutes total"
+      },
+      {
+        step: 2,
+        description: "Prepare the base mixture by combining milk and coconut cream in a saucepan. Heat until steaming (about 75°C).",
+        timing: "8-10 minutes"
+      },
+      {
+        step: 3,
+        description: "Whisk egg yolks with sugar, maple syrup, and cocoa powder. Temper with hot milk mixture, then return to saucepan and heat to 85°C while stirring constantly.",
+        timing: "8-10 minutes"
+      },
+      {
+        step: 4,
+        description: "Remove from heat, add chopped chocolate, hazelnut paste, salt, and vanilla bean seeds. Stir until chocolate is melted and mixture is well combined, then strain and chill thoroughly.",
+        timing: "5 minutes plus 4 hours chilling"
+      },
+      {
+        step: 5,
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
+      },
+      {
+        step: 6,
+        description: "Pour the chilled hazelnut-chocolate base into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
+      },
+      {
+        step: 7,
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while controlling overrun for authentic Italian texture.",
+        timing: "12-15 minutes processing"
+      },
+      {
+        step: 8,
+        description: "During the final minute of processing, add the reserved chopped hazelnuts through the ingredient feeder.",
+        timing: "1 minute"
+      },
+      {
+        step: 9,
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Smooth the top with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 10,
+        description: "Transfer immediately to the blast freezer for optimal texture development, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
+      }
+    ],
+    tips: [
+      "The balance between hazelnut and chocolate is crucial - neither should overpower the other in a true gianduia.",
+      "For the most authentic flavor, use hazelnuts specifically from the Piedmont region of Italy (particularly Tonda Gentile delle Langhe), which are renowned worldwide.",
+      "Freshly toasting the hazelnuts is essential to develop their full flavor profile.",
+      "Serve with a small piece of gianduiotto chocolate (the diamond-shaped hazelnut-chocolate confections from Turin) for an authentic presentation."
+    ],
+    history: "Gianduia originated in Turin, Piedmont during Napoleon's trade blockades in the early 1800s when cocoa was scarce. Chocolatiers extended their limited supplies by blending them with locally abundant hazelnuts, creating what would become one of Italy's most celebrated confections. The gelato version emerged in Turin's historic cafés and has become a staple of northern Italian gelaterie. Named after a carnival character symbolizing Piedmontese identity, gianduia gelato embodies the region's culinary heritage and showcases the perfect marriage of chocolate and the region's prized hazelnuts.",
+    color: "bg-amber-800"
+  },
+  {
+    id: "tiramisu",
+    name: "Tiramisù",
+    description: "The beloved Italian dessert reimagined as gelato—coffee-infused gelato with mascarpone richness, delicate notes of marsala wine, and chocolate shavings capturing the essence of Italy's famous 'pick-me-up' in frozen form.",
+    type: "cream-based",
+    difficulty: "hard",
+    totalTime: "4-5 hours (including chilling time)",
+    servings: 8,
+    equipment: [
+      "Carpigiani gelato machine",
+      "Digital scale",
+      "Medium saucepan",
+      "Whisk",
+      "Rubber spatula",
+      "Digital thermometer",
+      "Fine-mesh strainer",
+      "Airtight storage container",
+      "Coffee grinder or espresso machine"
+    ],
+    ingredients: [
+      {
+        name: "Whole milk",
+        quantity: "400ml",
+        preparation: "Refrigerate until cold"
+      },
+      {
+        name: "Mascarpone cheese",
+        quantity: "250g",
+        preparation: "Soften at room temperature for 30 minutes"
+      },
+      {
+        name: "Coconut cream",
+        quantity: "100ml",
+        preparation: "Refrigerate until cold (natural substitute for heavy cream)"
+      },
+      {
+        name: "Raw cane sugar",
+        quantity: "130g"
+      },
+      {
+        name: "Honey",
+        quantity: "25g",
+        preparation: "Natural substitute for dextrose to improve texture"
+      },
+      {
+        name: "Egg yolks",
+        quantity: "6 large",
+        preparation: "Bring to room temperature and whisk until smooth"
+      },
+      {
+        name: "Freshly brewed espresso",
+        quantity: "80ml",
+        preparation: "Cooled to room temperature"
+      },
+      {
+        name: "Marsala wine (dry)",
+        quantity: "30ml",
+        preparation: "Traditional Italian fortified wine"
+      },
+      {
+        name: "High-quality dark chocolate",
+        quantity: "50g",
+        preparation: "Finely grated or processed into small shavings"
+      },
+      {
+        name: "Unsweetened cocoa powder",
+        quantity: "20g",
+        preparation: "Plus extra for garnish"
+      },
+      {
+        name: "Sea salt",
+        quantity: "Pinch"
+      },
+      {
+        name: "Vanilla bean",
+        quantity: "1 pod",
+        preparation: "Split and scraped (natural substitute for vanilla extract)"
+      },
+      {
+        name: "Ladyfinger cookies (savoiardi)",
+        quantity: "4-5 cookies",
+        preparation: "Crushed into small pieces for folding in or garnish"
+      }
+    ],
+    steps: [
+      {
+        step: 1,
+        description: "Prepare the coffee mixture by combining espresso and Marsala wine. Set aside to cool completely.",
+        timing: "5 minutes plus cooling time"
+      },
+      {
+        step: 2,
+        description: "Whisk mascarpone until smooth, then prepare the base by combining milk and coconut cream in a saucepan. Heat until steaming (about 75°C).",
+        timing: "8-10 minutes"
+      },
+      {
+        step: 3,
+        description: "In a separate bowl, whisk egg yolks with sugar, honey, and cocoa powder. Slowly pour some hot milk mixture into the eggs while whisking to temper, then return to the saucepan.",
+        timing: "5-6 minutes"
+      },
+      {
+        step: 4,
+        description: "Heat the mixture gently until it reaches 85°C, stirring constantly. Remove from heat, then whisk in the smooth mascarpone, cooled coffee mixture, salt, and vanilla bean seeds. Strain and chill thoroughly.",
+        timing: "8-10 minutes plus 4 hours chilling"
+      },
+      {
+        step: 5,
+        description: "Power on the Carpigiani machine and set it to the gelato production program. Allow the machine to complete its pre-cooling cycle.",
+        timing: "10-15 minutes"
+      },
+      {
+        step: 6,
+        description: "Pour the chilled tiramisu base into the Carpigiani hopper. Select the 'Cream-Based Gelato' program and press start.",
+        timing: "1-2 minutes setup"
+      },
+      {
+        step: 7,
+        description: "The Carpigiani machine will automatically mix and freeze the gelato to the perfect consistency while controlling overrun for authentic Italian texture.",
+        timing: "12-15 minutes processing"
+      },
+      {
+        step: 8,
+        description: "When the gelato is nearly finished (about 2 minutes before completion), add the chocolate shavings and crushed ladyfingers through the ingredient feeder.",
+        timing: "2 minutes"
+      },
+      {
+        step: 9,
+        description: "Use the extraction lever to dispense the finished gelato directly into an airtight container. Gently swirl in any remaining crushed ladyfingers to create texture variety. Dust the top with cocoa powder and smooth with a spatula.",
+        timing: "2-3 minutes"
+      },
+      {
+        step: 10,
+        description: "Transfer immediately to the blast freezer for optimal texture development, or place in a conventional freezer for 2 hours before serving.",
+        timing: "30 minutes in blast freezer or 2 hours in conventional freezer"
+      }
+    ],
+    tips: [
+      "Using freshly brewed, high-quality espresso (rather than instant coffee) is essential for authentic tiramisu flavor.",
+      "The mascarpone must be completely smooth before incorporating it into the base to avoid any lumps in the final gelato.",
+      "The alcohol in Marsala not only adds flavor but helps keep the gelato softer when frozen. For an alcohol-free version, use coffee extract and a touch more vanilla.",
+      "For an elegant serving presentation, dust plates with cocoa powder and garnish with a small ladyfinger or chocolate-covered espresso bean."
+    ],
+    history: "Tiramisu, meaning 'pick me up' in Italian, originated in the Veneto region of Italy in the 1960s, quickly becoming an iconic Italian dessert worldwide. The gelato interpretation emerged as creative gelato masters sought to capture the dessert's distinctive combination of coffee, mascarpone, and cocoa in frozen form. While traditional tiramisu features layers of coffee-soaked ladyfingers and mascarpone cream, the gelato version incorporates all these elements into a harmonious frozen treat that honors the original while adding the smooth, dense texture that makes Italian gelato so beloved.",
+    color: "bg-amber-200"
   }
 ];
 
